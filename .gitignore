@@ -1,0 +1,26 @@
+# Ignore migrations as they can be regenerated
+**/migrations/
+
+# Ignore the .idea directory if you're using PyCharm or other IDEs
+.idea/
+/venv
+
+# Ignore database files (if using SQLite)
+db.sqlite3
+
+# Ignore Python byte code files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore log files
+*.log
+
+# Ignore compiled translations
+*.pot
+*.po
+*.mo
+
+# Ignore Python package build files
+*.egg-info/
